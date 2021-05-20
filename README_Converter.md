@@ -51,7 +51,7 @@ I tried a lot of path traversal techinques (because I wanted to read any file ou
 
 ![image](https://user-images.githubusercontent.com/70543460/118874740-e8f70a80-b8f3-11eb-8cc6-f568d4a7d122.png)
 
-Then I realized that I should have read **view_render.php** before trying moving to files outside the current directory:
+Then I realized that I should have read **view_render.php** before trying to read to files outside the current directory:
 
 ```view-source:http://web.ctf.ae:9806/renders/view_render.php?file=view_render.php```
 
